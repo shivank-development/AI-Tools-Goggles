@@ -6,7 +6,7 @@ from plyer import notification
 from playsound import playsound
 from stt import speak
 
-SOUND_FILE = "alert.mp3"  # Replace with your actual sound file path
+SOUND_FILE = "notification-alert-9-331720.mp3"  # Replace with your actual sound file path
 
 def play_sound():
     try:
@@ -67,4 +67,5 @@ def battery_alert():
         speak("Charging" if plugged else "Not charging")
 
         time.sleep(60)  # Check every minute
+
 
